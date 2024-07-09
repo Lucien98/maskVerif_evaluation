@@ -1,4 +1,4 @@
-proc sharedSbox_non-uniform:
+proc sharedSbox_non_uniform:
   inputs: a = tmp0 + tmp4 + tmp8, b = tmp1 + tmp5 + tmp9, c = tmp2 + tmp6 + tmp10, d = tmp3 + tmp7 + tmp11
   outputs:aa = tmp144 + tmp139 + tmp140, ab = tmp145 + tmp147 + tmp141, ac = tmp146 + tmp137 + tmp142, ad = tmp135 + tmp148 + tmp143;
 
@@ -141,4 +141,4 @@ proc sharedSbox_non-uniform:
   tmp148 := ~(tmp138 + tmp100);
 end
 
-order 1 Probing sharedSbox_non-uniform
+order 1 Probing sharedSbox_non_uniform
