@@ -1,0 +1,684 @@
+mv/aes/1Fresh/AES_GF256_Inversion_1fresh_ng.mv
+>proc AES_GF256_Inversion_1fresh added
+>Checking Threshold for AES_GF256_Inversion_1fresh: (no transition,no glitch)
+001,269 tuples to check
+No rnd rule
+Error not t-threshold secure:
+Cannot check
+(* stdin: line 358 (2-31) *)
+
+reduce to
+
+>run time: 0.884
+Bye bye!
+
+
+
+
+mv/aes/4Fresh/GF256Inv_Unit_4F_ng.mv
+>proc GF256Inv_Unit_4F added
+>Checking Threshold for GF256Inv_Unit_4F: (no transition,no glitch)
+001,351 tuples to check
+No rnd rule
+Error not t-threshold secure:
+Cannot check
+(* stdin: line 333 (2-28) *)
+
+reduce to
+
+>run time: 0.213
+Bye bye!
+
+
+
+
+mv/aes/cms/aes_sbox_cms1_ng.mv
+>proc aes_sbox_cms1 added
+>Checking Threshold for aes_sbox_cms1: (no transition,no glitch)
+944 tuples to check
+944  tuples checked over 944  in 1.569
+t-threshold secure
+>run time: 1.578
+Bye bye!
+
+
+
+
+mv/aes/dom/aes_sbox_dom1_ng.mv
+>proc aes_sbox_dom1 added
+>Checking Threshold for aes_sbox_dom1: (no transition,no glitch)
+810 tuples to check
+810  tuples checked over 810  in 0.531
+t-threshold secure
+>run time: 0.542
+Bye bye!
+
+
+
+
+mv/aes/NoFresh/AES_GF256_Inversion_NOfresh_ng.mv
+>proc AES_GF256_Inversion_NOfresh added
+>Checking Threshold for AES_GF256_Inversion_NOfresh: (no transition,no glitch)
+001,526 tuples to check
+No rnd rule
+Error not t-threshold secure:
+Cannot check
+(* stdin: line 375 (2-31) *)
+
+reduce to
+
+>run time: 0.255
+Bye bye!
+
+
+
+
+mv/aes/TI/inversion_TI_ng.mv
+>proc inversion_TI added
+>Checking Threshold for inversion_TI: (no transition,no glitch)
+878 tuples to check
+878  tuples checked over 878  in 0.125
+t-threshold secure
+>run time: 0.133
+Bye bye!
+
+
+
+
+mv/keccak/dom/keccak_sbox1_ng.mv
+>proc keccak_sbox1 added
+>Checking Threshold for keccak_sbox1: (no transition,no glitch)
+123 tuples to check
+123  tuples checked over 123  in 0.000
+t-threshold secure
+>run time: 0.002
+Bye bye!
+
+
+
+
+mv/keccak/dom/keccak_sbox1_nf_ng.mv
+>proc keccak_sbox1_nf added
+>Checking Threshold for keccak_sbox1_nf: (no transition,no glitch)
+090 tuples to check
+90  tuples checked over 90  in 0.001
+t-threshold secure
+>run time: 0.003
+Bye bye!
+
+
+
+
+mv/keccak/dom/keccak_sbox2_ng.mv
+>proc keccak_sbox2 added
+>Checking Threshold for keccak_sbox2: (no transition,no glitch)
+043,956 tuples to check
+43.956 K tuples checked over 43.956 K in 0.019
+t-threshold secure
+>run time: 0.022
+Bye bye!
+
+
+
+
+mv/keccak/dom/keccak_sbox3_ng.mv
+>proc keccak_sbox3 added
+>Checking Threshold for keccak_sbox3: (no transition,no glitch)
+026,979,680 tuples to check
+6.458 M tuples checked over 26.979 M in 0.139
+8.092 M tuples checked over 26.979 M in 0.336
+9.049 M tuples checked over 26.979 M in 0.523
+13.454 M tuples checked over 26.979 M in 0.673
+15.998 M tuples checked over 26.979 M in 0.800
+24.946 M tuples checked over 26.979 M in 0.939
+26.979 M tuples checked over 26.979 M in 1.041
+t-threshold secure
+>run time: 1.046
+Bye bye!
+
+
+
+
+mv/keccak/low-latency/1/keccak_sbox_ng.mv
+>proc keccak_sbox added
+>Checking Threshold for keccak_sbox: (no transition,no glitch)
+090 tuples to check
+90  tuples checked over 90  in 0.000
+t-threshold secure
+>run time: 0.002
+Bye bye!
+
+
+
+
+mv/keccak/low-latency/2/keccak_sbox_ng.mv
+>proc keccak_sbox added
+>Checking Threshold for keccak_sbox: (no transition,no glitch)
+018,915 tuples to check
+18.915 K tuples checked over 18.915 K in 0.003
+t-threshold secure
+>run time: 0.005
+Bye bye!
+
+
+
+
+mv/keccak/low-latency/3/keccak_sbox_ng.mv
+>proc keccak_sbox added
+>Checking Threshold for keccak_sbox: (no transition,no glitch)
+006,784,540 tuples to check
+4.184 M tuples checked over 6.784 M in 0.066
+6.784 M tuples checked over 6.784 M in 0.085
+t-threshold secure
+>run time: 0.088
+Bye bye!
+
+
+
+
+mv/keccak/NF/Chi_NoFresh_ng.mv
+>proc Chi_NoFresh added
+>Checking Threshold for Chi_NoFresh: (no transition,no glitch)
+087 tuples to check
+87  tuples checked over 87  in 0.001
+t-threshold secure
+>run time: 0.002
+Bye bye!
+
+
+
+
+mv/keccak/NF/Chi_NoFresh2_ng.mv
+>proc Chi_NoFresh2 added
+>Checking Threshold for Chi_NoFresh2: (no transition,no glitch)
+015,576 tuples to check
+14.034 K tuples checked over 15.576 K in 0.105
+15.576 K tuples checked over 15.576 K in 0.113
+t-threshold secure
+>run time: 0.115
+Bye bye!
+
+
+
+
+mv/Midori/d2/Midori_Sbox_3stageL2_ng.mv
+>proc Midori_Sbox_3stageL2 added
+>Checking Threshold for Midori_Sbox_3stageL2: (no transition,no glitch)
+129,795 tuples to check
+129.795 K tuples checked over 129.795 K in 0.285
+t-threshold secure
+>run time: 0.290
+Bye bye!
+
+
+
+
+mv/Midori/d2/Midori_Sbox_4stageL2_ng.mv
+>proc Midori_Sbox_4stageL2 added
+>Checking Threshold for Midori_Sbox_4stageL2: (no transition,no glitch)
+042,486 tuples to check
+42.486 K tuples checked over 42.486 K in 0.108
+t-threshold secure
+>run time: 0.112
+Bye bye!
+
+
+
+
+mv/Midori/d2/TwoSbox_3stageL2_ng.mv
+>proc TwoSbox_3stageL2 added
+>Checking Threshold for TwoSbox_3stageL2: (no transition,no glitch)
+515,620 tuples to check
+110.361 K tuples checked over 515.620 K in 0.682
+207.166 K tuples checked over 515.620 K in 1.334
+515.620 K tuples checked over 515.620 K in 1.901
+t-threshold secure
+>run time: 1.910
+Bye bye!
+
+
+
+
+mv/Midori/d2/Midori_Sbox_ng.mv
+>proc Midori_Sbox added
+>Checking Threshold for Midori_Sbox: (no transition,no glitch)
+001,098,903 tuples to check
+350.812 K tuples checked over 1.098 M in 1.117
+493.004 K tuples checked over 1.098 M in 2.351
+1.098 M tuples checked over 1.098 M in 3.324
+t-threshold secure
+>run time: 3.338
+Bye bye!
+
+
+
+
+mv/Midori/d2/TwoSboxes_ng.mv
+>proc TwoSboxes added
+>Checking Threshold for TwoSboxes: (no transition,no glitch)
+003,488,761 tuples to check
+670.381 K tuples checked over 3.488 M in 0.270
+760.678 K tuples checked over 3.488 M in 2.027
+828.452 K tuples checked over 3.488 M in 4.647
+1.038 M tuples checked over 3.488 M in 7.337
+1.267 M tuples checked over 3.488 M in 9.724
+1.797 M tuples checked over 3.488 M in 11.891
+1.951 M tuples checked over 3.488 M in 14.679
+3.238 M tuples checked over 3.488 M in 17.544
+3.488 M tuples checked over 3.488 M in 18.309
+t-threshold secure
+>run time: 18.328
+Bye bye!
+
+
+
+
+mv/Midori/d1/MidoriSbox_ng.mv
+>proc MidoriSbox added
+>Checking Threshold for MidoriSbox: (no transition,no glitch)
+258 tuples to check
+No rnd rule
+Error not t-threshold secure:
+Cannot check
+(* stdin: line 171 (2-28) *)
+
+reduce to
+
+>run time: 0.008
+Bye bye!
+
+
+
+
+mv/Midori/d2/Midori_Sbox_NF2_ng.mv
+>proc Midori_Sbox_NF2 added
+>Checking Threshold for Midori_Sbox_NF2: (no transition,no glitch)
+036,856 tuples to check
+No rnd rule
+Error not t-threshold secure:
+Cannot check
+(* stdin: line 286 (2-31) *)
+(* stdin: line 295 (2-31) *)
+
+reduce to
+
+>run time: 0.903
+Bye bye!
+
+
+
+
+mv/present/Present_Sbox_3stageL2_ng.mv
+>proc Present_Sbox_3stageL2 added
+>Checking Threshold for Present_Sbox_3stageL2: (no transition,no glitch)
+112,575 tuples to check
+51.996 K tuples checked over 112.575 K in 0.343
+112.575 K tuples checked over 112.575 K in 0.499
+t-threshold secure
+>run time: 0.503
+Bye bye!
+
+
+
+
+mv/present/Present_Sbox_5stageL2_ng.mv
+>proc Present_Sbox_5stageL2 added
+>Checking Threshold for Present_Sbox_5stageL2: (no transition,no glitch)
+047,586 tuples to check
+23.992 K tuples checked over 47.586 K in 0.243
+47.586 K tuples checked over 47.586 K in 0.333
+t-threshold secure
+>run time: 0.336
+Bye bye!
+
+
+
+
+mv/present/TwoSbox_3stageL2_ng.mv
+>proc TwoSbox_3stageL2 added
+>Checking Threshold for TwoSbox_3stageL2: (no transition,no glitch)
+446,985 tuples to check
+76.163 K tuples checked over 446.985 K in 0.782
+86.588 K tuples checked over 446.985 K in 1.550
+111.106 K tuples checked over 446.985 K in 2.246
+162.662 K tuples checked over 446.985 K in 2.990
+235.267 K tuples checked over 446.985 K in 3.622
+312.511 K tuples checked over 446.985 K in 4.429
+446.985 K tuples checked over 446.985 K in 4.742
+t-threshold secure
+>run time: 4.750
+Bye bye!
+
+
+
+
+mv/present/present_sbox_nf1_ng.mv
+>proc present_sbox_nf1 added
+>Checking Threshold for present_sbox_nf1: (no transition,no glitch)
+193 tuples to check
+No rnd rule
+Error not t-threshold secure:
+Cannot check
+(* stdin: line 135 (2-28) *)
+
+reduce to
+
+>run time: 0.006
+Bye bye!
+
+
+
+
+mv/present/present_sbox_nf2_ng.mv
+>proc present_sbox_nf2 added
+>Checking Threshold for present_sbox_nf2: (no transition,no glitch)
+036,046 tuples to check
+No rnd rule
+Error not t-threshold secure:
+Cannot check
+(* stdin: line 256 (2-31) *)
+(* stdin: line 283 (2-31) *)
+
+reduce to
+
+>run time: 1.739
+Bye bye!
+
+
+
+
+mv/present/sharedSbox_non-uniform_ng.mv
+>proc sharedSbox_non_uniform added
+>Checking Threshold for sharedSbox_non_uniform: (no transition,no glitch)
+218 tuples to check
+No rnd rule
+Error not t-threshold secure:
+Cannot check
+(* stdin: line 95 (2-29) *)
+
+reduce to
+
+>run time: 0.065
+Bye bye!
+
+
+
+
+mv/present/sharedSbox_uniform1_ng.mv
+>proc sharedSbox_uniform1 added
+>Checking Threshold for sharedSbox_uniform1: (no transition,no glitch)
+242 tuples to check
+No rnd rule
+Error not t-threshold secure:
+Cannot check
+(* stdin: line 110 (2-31) *)
+
+reduce to
+
+>run time: 0.258
+Bye bye!
+
+
+
+
+mv/present/sharedSbox_uniform2_ng.mv
+>proc sharedSbox_uniform2 added
+>Checking Threshold for sharedSbox_uniform2: (no transition,no glitch)
+534 tuples to check
+No rnd rule
+Error not t-threshold secure:
+Cannot check
+(* stdin: line 209 (2-31) *)
+
+reduce to
+
+>run time: 0.067
+Bye bye!
+
+
+
+
+mv/prince/d1/PRINCESboxInv_NF_ng.mv
+>proc PRINCESboxInv_NF added
+>Checking Threshold for PRINCESboxInv_NF: (no transition,no glitch)
+310 tuples to check
+No rnd rule
+Error not t-threshold secure:
+Cannot check
+(* stdin: line 198 (2-31) *)
+
+reduce to
+
+>run time: 0.011
+Bye bye!
+
+
+
+
+mv/prince/d2/PRINCE_Sbox_Inverse_4stageL2_ng.mv
+>proc PRINCE_Sbox_Inverse_4stageL2 added
+>Checking Threshold for PRINCE_Sbox_Inverse_4stageL2: (no transition,no glitch)
+159,330 tuples to check
+36.803 K tuples checked over 159.330 K in 0.483
+56.039 K tuples checked over 159.330 K in 0.921
+77.434 K tuples checked over 159.330 K in 1.388
+No rnd rule
+Error not t-threshold secure:
+Cannot check
+(* stdin: line 260 (2-31) *)
+(* stdin: line 109 (2-31) *)
+
+reduce to
+
+>run time: 1.717
+Bye bye!
+
+
+
+
+mv/prince/d2/PRINCE_Sbox_Inverse_4stageL2_fixedRTL_ng.mv
+>proc PRINCE_Sbox_Inverse_4stageL2_fixedRTL added
+>Checking Threshold for PRINCE_Sbox_Inverse_4stageL2_fixedRTL: (no transition,no glitch)
+159,895 tuples to check
+36.750 K tuples checked over 159.895 K in 0.483
+56.320 K tuples checked over 159.895 K in 0.931
+77.583 K tuples checked over 159.895 K in 1.411
+159.895 K tuples checked over 159.895 K in 1.744
+t-threshold secure
+>run time: 1.749
+Bye bye!
+
+
+
+
+mv/prince/d2/PRINCE_Sbox_Inverse_6stageL2_ng.mv
+>proc PRINCE_Sbox_Inverse_6stageL2 added
+>Checking Threshold for PRINCE_Sbox_Inverse_6stageL2: (no transition,no glitch)
+083,845 tuples to check
+22.458 K tuples checked over 83.845 K in 0.368
+33.552 K tuples checked over 83.845 K in 0.716
+83.845 K tuples checked over 83.845 K in 0.993
+t-threshold secure
+>run time: 0.997
+Bye bye!
+
+
+
+
+mv/prince/d2/sbox/PRINCE_Sbox_ng.mv
+>proc PRINCE_Sbox added
+>Checking Threshold for PRINCE_Sbox: (no transition,no glitch)
+001,160,526 tuples to check
+389.174 K tuples checked over 1.160 M in 0.704
+488.686 K tuples checked over 1.160 M in 1.743
+1.151 M tuples checked over 1.160 M in 2.863
+1.160 M tuples checked over 1.160 M in 3.145
+t-threshold secure
+>run time: 3.159
+Bye bye!
+
+
+
+
+mv/prince/d2/sbox/TwoSboxes_ng.mv
+>proc TwoSboxes added
+>Checking Threshold for TwoSboxes: (no transition,no glitch)
+004,209,351 tuples to check
+728.848 K tuples checked over 4.209 M in 2.224
+747.860 K tuples checked over 4.209 M in 4.609
+809.993 K tuples checked over 4.209 M in 6.376
+866.329 K tuples checked over 4.209 M in 9.223
+996.069 K tuples checked over 4.209 M in 11.253
+1.219 M tuples checked over 4.209 M in 13.837
+1.558 M tuples checked over 4.209 M in 15.951
+2.208 M tuples checked over 4.209 M in 18.664
+3.622 M tuples checked over 4.209 M in 20.873
+4.209 M tuples checked over 4.209 M in 22.317
+t-threshold secure
+>run time: 22.338
+Bye bye!
+
+
+
+
+mv/prince/d1/PRINCESbox_NF_ng.mv
+>proc PRINCESbox_NF added
+>Checking Threshold for PRINCESbox_NF: (no transition,no glitch)
+235 tuples to check
+No rnd rule
+Error not t-threshold secure:
+Cannot check
+(* stdin: line 164 (2-31) *)
+
+reduce to
+
+>run time: 0.013
+Bye bye!
+
+
+
+
+mv/prince/d2/prince_sbox_nf2_ng.mv
+>proc prince_sbox_nf2 added
+>Checking Threshold for prince_sbox_nf2: (no transition,no glitch)
+063,546 tuples to check
+No rnd rule
+Error not t-threshold secure:
+Cannot check
+(* stdin: line 296 (2-31) *)
+(* stdin: line 274 (2-33) *)
+
+reduce to
+
+>run time: 16.807
+Bye bye!
+
+
+
+
+mv/prince/d1/prince_sbox_TI1_ng.mv
+>proc prince_sbox_TI1 added
+>Checking Threshold for prince_sbox_TI1: (no transition,no glitch)
+163 tuples to check
+No rnd rule
+Error not t-threshold secure:
+Cannot check
+(* stdin: line 86 (2-25) *)
+
+reduce to
+
+>run time: 0.027
+Bye bye!
+
+
+
+
+mv/skinny/d1/skinny_sbox8_CMS1_ng.mv
+>proc skinny_sbox8_CMS1 added
+>Checking Threshold for skinny_sbox8_CMS1: (no transition,no glitch)
+107 tuples to check
+No rnd rule
+Error not t-threshold secure:
+Cannot check
+(* stdin: line 163 (2-28) *)
+
+reduce to
+
+>run time: 0.037
+Bye bye!
+
+
+
+
+mv/skinny/d2/SKINNY_Sbox_3stageL2_ng.mv
+>proc SKINNY_Sbox_3stageL2 added
+>Checking Threshold for SKINNY_Sbox_3stageL2: (no transition,no glitch)
+052,975 tuples to check
+52.975 K tuples checked over 52.975 K in 0.075
+t-threshold secure
+>run time: 0.078
+Bye bye!
+
+
+
+
+mv/skinny/d2/SKINNY_Sbox_4stageL2_ng.mv
+>proc SKINNY_Sbox_4stageL2 added
+>Checking Threshold for SKINNY_Sbox_4stageL2: (no transition,no glitch)
+042,486 tuples to check
+42.486 K tuples checked over 42.486 K in 0.061
+t-threshold secure
+>run time: 0.064
+Bye bye!
+
+
+
+
+mv/skinny/d2/TwoSbox_3stageL2_ng.mv
+>proc TwoSbox_3stageL2 added
+>Checking Threshold for TwoSbox_3stageL2: (no transition,no glitch)
+209,628 tuples to check
+103.925 K tuples checked over 209.628 K in 0.331
+209.628 K tuples checked over 209.628 K in 0.486
+t-threshold secure
+>run time: 0.491
+Bye bye!
+
+
+
+
+mv/skinny/d2/SKINNY_Sbox_NF2_ng.mv
+>proc SKINNY_Sbox_NF2 added
+>Checking Threshold for SKINNY_Sbox_NF2: (no transition,no glitch)
+016,471 tuples to check
+No rnd rule
+Error not t-threshold secure:
+Cannot check
+(* stdin: line 152 (2-31) *)
+(* stdin: line 134 (2-31) *)
+
+reduce to
+
+>run time: 0.056
+Bye bye!
+
+
+
+
+mv/skinny/d1/skinny_sbox8_TI1_ng.mv
+>proc skinny_sbox8_TI1 added
+>Checking Threshold for skinny_sbox8_TI1: (no transition,no glitch)
+216 tuples to check
+No rnd rule
+Error not t-threshold secure:
+Cannot check
+(* stdin: line 183 (2-31) *)
+
+reduce to
+
+>run time: 207.551
+Bye bye!
+
+
+
+
