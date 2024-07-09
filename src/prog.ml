@@ -755,7 +755,7 @@ let rec build_obs ~trans ~glitch obs s c =
     let e = subst_e s i.i_expr in
     let pp fmt () =
       pp fmt ();
-      Format.fprintf fmt "(* from @[%a@] *)@ " (pp_expr ~full:dft_pinfo) e in
+      (* Format.fprintf fmt "(* from @[%a@] *)@ " (pp_expr ~full:dft_pinfo) e *) in
     let etrans =
       if trans then
         try Some (remove_top_not (expr_of_pexpr (E.Hv.find s i.i_var)))
@@ -958,7 +958,7 @@ let build_obs_func ~ni ~trans ~glitch loc f =
   (* Now build the list of Checker.expr_info *)
   let pp_e pp e fmt () =
     pp fmt ();
-    Format.fprintf fmt "@[%a@]@ " E.pp_expr e in
+    (* Format.fprintf fmt "@[%a@]@ " E.pp_expr e *) in
   let mk_ei e =
     { Checker.red_expr = e;
       Checker.pp_info =

@@ -111,16 +111,16 @@ let initial_check_indep k ps =
     with Depend -> false in
 
   let rec aux excl depend ps =
-    Format.eprintf "aux@.";
+    (* Format.eprintf "aux@.";
     Format.eprintf "depend = @[<v>%a@]@." (pp_list "@ " P.pp) depend;
     Format.eprintf "ps = @[<v>%a@]@." (pp_list "@ " P.pp) ps;
-
+ *)
     if is_indep depend ps then true
     else
       match find_rnd excl ps with
       | [] -> Format.eprintf "No rnd rule@."; false
       | (r,p) :: _ ->
-        Format.eprintf "r = %a; p = %a@." pp_expr r P.pp p;
+        (* Format.eprintf "r = %a; p = %a@." pp_expr r P.pp p; *)
         He.add excl r ();
         let ps = List.map (subst r (P.add (P.var r) p)) ps in
         let dps, ps = List.partition no_rnd ps in

@@ -1,0 +1,58 @@
+proc keccak_sbox:
+  inputs: a = tmp0 + tmp1, b = tmp2 + tmp3, c = tmp4 + tmp5, d = tmp6 + tmp7, e = tmp8 + tmp9
+  outputs:aa = tmp35 + tmp49 + tmp60 + tmp55, ab = tmp36 + tmp62 + tmp46 + tmp56, ac = tmp37 + tmp51 + tmp61 + tmp57, ad = tmp53 + tmp63 + tmp24 + tmp58, ae = tmp64 + tmp34 + tmp48 + tmp59
+  randoms:tmp10,tmp11,tmp12,tmp13,tmp14;
+
+  tmp15 := ~tmp3;
+  tmp16 := ~tmp5;
+  tmp17 := ~tmp7;
+  tmp18 := ~tmp9;
+  tmp19 := ~tmp1;
+  tmp20 := ~tmp3;
+  tmp21 := ~(tmp4 * tmp7);
+  tmp22 := tmp12 + tmp4;
+  tmp23 := ~tmp7;
+  tmp24 := tmp8 * tmp0;
+  tmp25 := tmp10 + tmp8;
+  tmp26 := ~(tmp0 * tmp3);
+  tmp27 := tmp14 + tmp0;
+  tmp28 := ~(tmp2 * tmp5);
+  tmp29 := tmp13 + tmp2;
+  tmp30 := ~tmp5;
+  tmp31 := ~(tmp6 * tmp9);
+  tmp32 := tmp11 + tmp6;
+  tmp33 := ~tmp9;
+  tmp34 := tmp0 * tmp2;
+  tmp35 := tmp2 * tmp4;
+  tmp36 := tmp4 * tmp6;
+  tmp37 := tmp6 * tmp8;
+  tmp38 := ~(tmp8 * tmp1);
+  tmp39 := ~tmp1;
+  tmp40 := ~(tmp5 * tmp15);
+  tmp41 := ~(tmp7 * tmp16);
+  tmp42 := ~(tmp9 * tmp17);
+  tmp43 := ~(tmp1 * tmp18);
+  tmp44 := ~(tmp3 * tmp19);
+  tmp45 := ~(tmp4 * tmp20);
+  tmp46 := ~(tmp21 + tmp13);
+  tmp47 := ~(tmp8 * tmp23);
+  tmp48 := ~(tmp25 + tmp26);
+  tmp49 := ~(tmp27 + tmp28);
+  tmp50 := ~(tmp6 * tmp30);
+  tmp51 := ~(tmp31 + tmp12);
+  tmp52 := ~(tmp0 * tmp33);
+  tmp53 := ~(tmp38 + tmp11);
+  tmp54 := ~(tmp2 * tmp39);
+  tmp55 := ~(tmp1 + tmp40);
+  tmp56 := ~(tmp3 + tmp41);
+  tmp57 := ~(tmp5 + tmp42);
+  tmp58 := ~(tmp7 + tmp43);
+  tmp59 := ~(tmp9 + tmp44);
+  tmp60 := ~(tmp14 + tmp45);
+  tmp61 := ~(tmp22 + tmp47);
+  tmp62 := ~(tmp29 + tmp50);
+  tmp63 := ~(tmp32 + tmp52);
+  tmp64 := ~(tmp10 + tmp54);
+end
+
+order 1 Probing keccak_sbox

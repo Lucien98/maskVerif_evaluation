@@ -143,7 +143,7 @@ let add_operator o ty bij =
     let o = Expr.Op.make (data o) (Some(List.rev tys, ty)) bij Expr.Other in
     Format.printf "operator %s added@." o.Expr.op_name
 
-let rec process_command c =
+let rec process_command t0 c=
   match c with
   | Operator (o, ty, bij) ->
     add_operator o ty bij
@@ -154,7 +154,7 @@ let rec process_command c =
   | Probing(f,o) -> check_threshold f (process_check_opt o)
   | Read_file filename ->
     Format.eprintf "read_file %s@." (data filename);
-    process_file filename
+    process_file t0 filename
   | Read_ilang filename ->
     Format.eprintf "read_ilang %s@." (data filename);
     let func = Ilang.process_file (data filename) in
@@ -164,19 +164,21 @@ let rec process_command c =
     Format.printf "%a@." (Prog.pp_func ~full:Prog.dft_pinfo) func
   | Verbose i -> Util.set_verbose (data i)
   | Exit ->
+    Format.eprintf "run time: %.3f@." (Sys.time () -. t0);
     Format.eprintf "Bye bye!@.";
     exit 0
 
-and process_file filename =
+and process_file t0 filename =
   let cs = Parse.process_file (data filename) in
-  List.iter process_command cs
+  List.iter (process_command t0) cs
 
 let main =
+  let t0 = Sys.time () in
   while true do
     try
       Format.printf ">"; Format.print_flush ();
       let c = Parse.process_command () in
-      process_command c
+      process_command t0 c
     with
     | ParseError (l,s) ->
       let s = match s with Some s -> s | None -> "" in

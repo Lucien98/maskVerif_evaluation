@@ -104,10 +104,17 @@ let pp_eis fmt =
 let print_error opt fmt lhd =
   Format.fprintf fmt "@[<v>Cannot check@ ";
   if opt.pp_error then
-    Format.fprintf fmt "%a@ reduce to@ %a"
+    Format.fprintf fmt "%a@ reduce to@ "
       pp_eis lhd
-      (pp_list ",@ " (fun fmt ei -> pp_expr fmt ei.red_expr)) lhd;
+      (* (pp_list ",@ " (fun fmt ei -> pp_expr fmt ei.red_expr)) lhd*); 
   Format.fprintf fmt "@]"
+
+let pp_fail opt fmt (fname,s,le) =
+  match fname with
+  | None ->
+    Format.fprintf fmt "@[<v>Error not %s:@ %a@]" s (print_error opt) le
+  | Some x ->
+    Format.fprintf fmt "@[<v>Error %s is not %s:@ %a@]" x s (print_error opt) le
 
 let find_bij opt _n state maxparams ldfs =
   let lhd = L.lfirst ldfs in
@@ -121,21 +128,27 @@ let find_bij opt _n state maxparams ldfs =
         (fun ldf -> List.map (fun ei -> ei.red_expr) ldf.L.l)
       ldfs
     in
-    Format.eprintf "."; Format.pp_print_flush Format.err_formatter (); 
+    (* Format.eprintf "."; Format.pp_print_flush Format.err_formatter ();  *)
 
     let etbl =
       try Pexpr.check_indep maxparams es other
       with Pexpr.Depend ->
-        Format.eprintf "start poly@.";
+        (* Format.eprintf "start poly@."; *)
+        (* raise (CanNotCheck lhd); *)
         let ind = Poly_solve.check_indep maxparams es in
-        Format.eprintf "end poly@.";
+        (* Format.eprintf "end poly@."; *)
 
         if ind then
           let etbl = He.create 101 in
           List.iter (fun e -> He.replace etbl e ()) es;
           etbl
-        else 
-          raise (CanNotCheck lhd) in 
+        else (*begin
+          Format.eprintf "%a@." (pp_fail opt) (None,"t-threshold secure",lhd);
+          let etbl = He.create 101 in
+          List.iter (fun e -> He.replace etbl e ()) es;
+          etbl
+        end*)
+           raise (CanNotCheck lhd)  in 
     let is_in ei = He.mem etbl (ei.red_expr) in 
     List.map (fun ldf -> List.partition is_in ldf.L.l) ldfs 
 
@@ -203,7 +216,9 @@ let check_all opt state maxparams (ldfs:L.ldfs) =
       tdone := Z.add !tdone (L.cnp_ldfs ldfs);
    in
   check_all state maxparams ldfs;
-  Format.eprintf "%a tuples checked@." pp_z !tdone
+  Format.eprintf "%a tuples checked over %a in %.3f@."
+        pp_z !tdone pp_z to_check (Sys.time () -. t0);
+
 
 exception Done
 
@@ -336,13 +351,6 @@ let pp_ok fmt (fname,s) =
   match fname with
   | None -> Format.fprintf fmt "%s" s
   | Some x -> Format.fprintf fmt "%s is %s" x s
-
-let pp_fail opt fmt (fname,s,le) =
-  match fname with
-  | None ->
-    Format.fprintf fmt "@[<v>Error not %s:@ %a@]" s (print_error opt) le
-  | Some x ->
-    Format.fprintf fmt "@[<v>Error %s is not %s:@ %a@]" x s (print_error opt) le
 
 let check_all_opt opt ~para =
   if para then check_all_para opt else check_all opt
