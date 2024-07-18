@@ -652,3 +652,16 @@ mv/skinny/d1/skinny_sbox8_TI1_g.mv
 >proc skinny_sbox8_TI1 added
 >Checking Threshold for skinny_sbox8_TI1: (no transition,glitch)
 024 tuples to check
+No rnd rule
+Error not t-threshold secure:
+Cannot check
+(* stdin: line 194 (2-31) *)
+
+reduce to
+
+>run time: 3787.538
+Bye bye!
+
+
+
+
