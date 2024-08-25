@@ -1,0 +1,16 @@
+proc shares2:
+  inputs: a = tmp0 + tmp1, b = tmp2 + tmp3
+  outputs:aa = tmp10 + tmp12
+  randoms:tmp4;
+
+  tmp5 := tmp0 * tmp3;
+  tmp6 := tmp4 + tmp5;
+  tmp7 := tmp1 * tmp2;
+  tmp8 := tmp6 + tmp7;
+  tmp9 := tmp0 * tmp2;
+  tmp10 := tmp9 + tmp4;
+  tmp11 := tmp1 * tmp3;
+  tmp12 := tmp11 + tmp8;
+end
+
+order 1 Probing shares2

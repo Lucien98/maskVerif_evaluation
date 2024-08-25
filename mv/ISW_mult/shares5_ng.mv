@@ -1,0 +1,73 @@
+proc shares5:
+  inputs: a = tmp0 + tmp1 + tmp2 + tmp3 + tmp4, b = tmp5 + tmp6 + tmp7 + tmp8 + tmp9
+  outputs:aa = tmp64 + tmp69 + tmp74 + tmp79 + tmp84
+  randoms:tmp10,tmp11,tmp12,tmp13,tmp14,tmp15,tmp16,tmp17,tmp18,tmp19;
+
+  tmp20 := tmp0 * tmp6;
+  tmp21 := tmp10 + tmp20;
+  tmp22 := tmp1 * tmp5;
+  tmp23 := tmp21 + tmp22;
+  tmp24 := tmp0 * tmp7;
+  tmp25 := tmp11 + tmp24;
+  tmp26 := tmp2 * tmp5;
+  tmp27 := tmp25 + tmp26;
+  tmp28 := tmp0 * tmp8;
+  tmp29 := tmp12 + tmp28;
+  tmp30 := tmp3 * tmp5;
+  tmp31 := tmp29 + tmp30;
+  tmp32 := tmp0 * tmp9;
+  tmp33 := tmp13 + tmp32;
+  tmp34 := tmp4 * tmp5;
+  tmp35 := tmp33 + tmp34;
+  tmp36 := tmp1 * tmp7;
+  tmp37 := tmp14 + tmp36;
+  tmp38 := tmp2 * tmp6;
+  tmp39 := tmp37 + tmp38;
+  tmp40 := tmp1 * tmp8;
+  tmp41 := tmp15 + tmp40;
+  tmp42 := tmp3 * tmp6;
+  tmp43 := tmp41 + tmp42;
+  tmp44 := tmp1 * tmp9;
+  tmp45 := tmp16 + tmp44;
+  tmp46 := tmp4 * tmp6;
+  tmp47 := tmp45 + tmp46;
+  tmp48 := tmp2 * tmp8;
+  tmp49 := tmp17 + tmp48;
+  tmp50 := tmp3 * tmp7;
+  tmp51 := tmp49 + tmp50;
+  tmp52 := tmp2 * tmp9;
+  tmp53 := tmp18 + tmp52;
+  tmp54 := tmp4 * tmp7;
+  tmp55 := tmp53 + tmp54;
+  tmp56 := tmp3 * tmp9;
+  tmp57 := tmp19 + tmp56;
+  tmp58 := tmp4 * tmp8;
+  tmp59 := tmp57 + tmp58;
+  tmp60 := tmp0 * tmp5;
+  tmp61 := tmp60 + tmp10;
+  tmp62 := tmp61 + tmp11;
+  tmp63 := tmp62 + tmp12;
+  tmp64 := tmp63 + tmp13;
+  tmp65 := tmp1 * tmp6;
+  tmp66 := tmp65 + tmp23;
+  tmp67 := tmp66 + tmp14;
+  tmp68 := tmp67 + tmp15;
+  tmp69 := tmp68 + tmp16;
+  tmp70 := tmp2 * tmp7;
+  tmp71 := tmp70 + tmp27;
+  tmp72 := tmp71 + tmp39;
+  tmp73 := tmp72 + tmp17;
+  tmp74 := tmp73 + tmp18;
+  tmp75 := tmp3 * tmp8;
+  tmp76 := tmp75 + tmp31;
+  tmp77 := tmp76 + tmp43;
+  tmp78 := tmp77 + tmp51;
+  tmp79 := tmp78 + tmp19;
+  tmp80 := tmp4 * tmp9;
+  tmp81 := tmp80 + tmp35;
+  tmp82 := tmp81 + tmp47;
+  tmp83 := tmp82 + tmp55;
+  tmp84 := tmp83 + tmp59;
+end
+
+order 4 noglitch Probing shares5

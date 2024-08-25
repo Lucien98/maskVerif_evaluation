@@ -1,0 +1,29 @@
+proc shares3:
+  inputs: a = tmp0 + tmp1 + tmp2, b = tmp3 + tmp4 + tmp5
+  outputs:aa = tmp23 + tmp26 + tmp29
+  randoms:tmp6,tmp7,tmp8;
+
+  tmp9 := tmp0 * tmp4;
+  tmp10 := tmp6 + tmp9;
+  tmp11 := tmp1 * tmp3;
+  tmp12 := tmp10 + tmp11;
+  tmp13 := tmp0 * tmp5;
+  tmp14 := tmp7 + tmp13;
+  tmp15 := tmp2 * tmp3;
+  tmp16 := tmp14 + tmp15;
+  tmp17 := tmp1 * tmp5;
+  tmp18 := tmp8 + tmp17;
+  tmp19 := tmp2 * tmp4;
+  tmp20 := tmp18 + tmp19;
+  tmp21 := tmp0 * tmp3;
+  tmp22 := tmp21 + tmp6;
+  tmp23 := tmp22 + tmp7;
+  tmp24 := tmp1 * tmp4;
+  tmp25 := tmp24 + tmp12;
+  tmp26 := tmp25 + tmp8;
+  tmp27 := tmp2 * tmp5;
+  tmp28 := tmp27 + tmp16;
+  tmp29 := tmp28 + tmp20;
+end
+
+order 2 noglitch Probing shares3

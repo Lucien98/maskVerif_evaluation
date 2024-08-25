@@ -1,0 +1,9 @@
+mv/refresh_nlogn/shares2_ng.mv
+mv/refresh_nlogn/shares4_ng.mv
+mv/refresh_nlogn/shares6_ng.mv
+mv/refresh_nlogn/shares7_ng.mv
+mv/ISW_mult/shares2_ng.mv
+mv/ISW_mult/shares3_ng.mv
+mv/ISW_mult/shares4_ng.mv
+mv/ISW_mult/shares5_ng.mv
+mv/ISW_mult/shares6_ng.mv

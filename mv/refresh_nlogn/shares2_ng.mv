@@ -1,0 +1,10 @@
+proc shares2:
+  inputs: a = tmp0 + tmp1
+  outputs:aa = tmp3 + tmp4
+  randoms:tmp2;
+
+  tmp3 := tmp0 + tmp2;
+  tmp4 := tmp1 + tmp2;
+end
+
+order 1 noglitch Probing shares2

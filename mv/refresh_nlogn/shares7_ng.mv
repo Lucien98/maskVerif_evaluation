@@ -1,0 +1,43 @@
+proc shares7:
+  inputs: a = tmp0 + tmp1 + tmp2 + tmp3 + tmp4 + tmp5 + tmp6
+  outputs:aa = tmp50 + tmp52 + tmp54 + tmp51 + tmp53 + tmp55 + tmp56
+  randoms:tmp7,tmp8,tmp9,tmp10,tmp11,tmp12,tmp13,tmp14,tmp15,tmp16,tmp17,tmp18,tmp19,tmp20,tmp21;
+
+  tmp22 := tmp0 + tmp7;
+  tmp23 := tmp3 + tmp7;
+  tmp24 := tmp1 + tmp8;
+  tmp25 := tmp4 + tmp8;
+  tmp26 := tmp2 + tmp9;
+  tmp27 := tmp5 + tmp9;
+  tmp28 = ![tmp6];
+  tmp29 := tmp22 + tmp10;
+  tmp30 := tmp24 + tmp10;
+  tmp31 = ![tmp26];
+  tmp32 = ![tmp29];
+  tmp33 := tmp30 + tmp11;
+  tmp34 := tmp31 + tmp11;
+  tmp35 := tmp32 + tmp12;
+  tmp36 := tmp33 + tmp12;
+  tmp37 = ![tmp34];
+  tmp38 := tmp23 + tmp13;
+  tmp39 := tmp27 + tmp13;
+  tmp40 := tmp25 + tmp14;
+  tmp41 := tmp28 + tmp14;
+  tmp42 := tmp38 + tmp15;
+  tmp43 := tmp40 + tmp15;
+  tmp44 := tmp39 + tmp16;
+  tmp45 := tmp41 + tmp16;
+  tmp46 := tmp42 + tmp17;
+  tmp47 := tmp44 + tmp17;
+  tmp48 := tmp43 + tmp18;
+  tmp49 := tmp45 + tmp18;
+  tmp50 := tmp35 + tmp19;
+  tmp51 := tmp46 + tmp19;
+  tmp52 := tmp36 + tmp20;
+  tmp53 := tmp48 + tmp20;
+  tmp54 := tmp37 + tmp21;
+  tmp55 := tmp47 + tmp21;
+  tmp56 = ![tmp49];
+end
+
+order 6 noglitch Probing shares7

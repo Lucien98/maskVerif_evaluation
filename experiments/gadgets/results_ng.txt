@@ -1,0 +1,202 @@
+mv/refresh_nlogn/shares2_ng.mv
+>proc shares2 added
+>Checking Threshold for shares2: (no transition,no glitch)
+005 tuples to check
+5  tuples checked over 5  in 0.000
+t-threshold secure
+>run time: 0.001
+Bye bye!
+
+
+
+
+mv/refresh_nlogn/shares4_ng.mv
+>proc shares4 added
+>Checking Threshold for shares4: (no transition,no glitch)
+001,540 tuples to check
+1.540 K tuples checked over 1.540 K in 0.000
+t-threshold secure
+>run time: 0.002
+Bye bye!
+
+
+
+
+mv/refresh_nlogn/shares6_ng.mv
+>proc shares6 added
+>Checking Threshold for shares6: (no transition,no glitch)
+850,668 tuples to check
+850.668 K tuples checked over 850.668 K in 0.001
+t-threshold secure
+>run time: 0.003
+Bye bye!
+
+
+
+
+mv/refresh_nlogn/shares7_ng.mv
+>proc shares7 added
+>Checking Threshold for shares7: (no transition,no glitch)
+020,358,520 tuples to check
+20.358 M tuples checked over 20.358 M in 0.004
+t-threshold secure
+>run time: 0.006
+Bye bye!
+
+
+
+
+mv/ISW_mult/shares2_ng.mv
+>proc shares2 added
+>Checking Threshold for shares2: (no transition,no glitch)
+013 tuples to check
+13  tuples checked over 13  in 0.000
+t-threshold secure
+>run time: 0.002
+Bye bye!
+
+
+
+
+mv/ISW_mult/shares3_ng.mv
+>proc shares3 added
+>Checking Threshold for shares3: (no transition,no glitch)
+435 tuples to check
+435  tuples checked over 435  in 0.001
+t-threshold secure
+>run time: 0.003
+Bye bye!
+
+
+
+
+mv/ISW_mult/shares4_ng.mv
+>proc shares4 added
+>Checking Threshold for shares4: (no transition,no glitch)
+024,804 tuples to check
+24.804 K tuples checked over 24.804 K in 0.023
+t-threshold secure
+>run time: 0.025
+Bye bye!
+
+
+
+
+mv/ISW_mult/shares5_ng.mv
+>proc shares5 added
+>Checking Threshold for shares5: (no transition,no glitch)
+002,024,785 tuples to check
+491.382 K tuples checked over 2.024 M in 0.065
+907.909 K tuples checked over 2.024 M in 0.113
+1.159 M tuples checked over 2.024 M in 0.164
+1.357 M tuples checked over 2.024 M in 0.226
+1.803 M tuples checked over 2.024 M in 0.289
+2.024 M tuples checked over 2.024 M in 0.323
+t-threshold secure
+>run time: 0.326
+Bye bye!
+
+
+
+
+mv/ISW_mult/shares6_ng.mv
+>proc shares6 added
+>Checking Threshold for shares6: (no transition,no glitch)
+216,071,394 tuples to check
+14.972 M tuples checked over 216.071 M in 0.081
+19.699 M tuples checked over 216.071 M in 0.175
+19.821 M tuples checked over 216.071 M in 0.267
+20.379 M tuples checked over 216.071 M in 0.361
+20.837 M tuples checked over 216.071 M in 0.449
+22.049 M tuples checked over 216.071 M in 0.546
+22.342 M tuples checked over 216.071 M in 0.627
+22.889 M tuples checked over 216.071 M in 0.713
+23.093 M tuples checked over 216.071 M in 0.815
+26.390 M tuples checked over 216.071 M in 0.899
+26.917 M tuples checked over 216.071 M in 0.992
+28.241 M tuples checked over 216.071 M in 1.070
+28.650 M tuples checked over 216.071 M in 1.149
+29.394 M tuples checked over 216.071 M in 1.231
+30.531 M tuples checked over 216.071 M in 1.308
+31.656 M tuples checked over 216.071 M in 1.363
+32.614 M tuples checked over 216.071 M in 1.412
+34.232 M tuples checked over 216.071 M in 1.469
+35.165 M tuples checked over 216.071 M in 1.552
+53.008 M tuples checked over 216.071 M in 1.619
+53.467 M tuples checked over 216.071 M in 1.687
+54.184 M tuples checked over 216.071 M in 1.759
+55.534 M tuples checked over 216.071 M in 1.831
+61.796 M tuples checked over 216.071 M in 1.911
+62.421 M tuples checked over 216.071 M in 1.969
+64.787 M tuples checked over 216.071 M in 2.040
+65.284 M tuples checked over 216.071 M in 2.109
+68.542 M tuples checked over 216.071 M in 2.172
+71.233 M tuples checked over 216.071 M in 2.228
+71.935 M tuples checked over 216.071 M in 2.286
+73.303 M tuples checked over 216.071 M in 2.339
+74.291 M tuples checked over 216.071 M in 2.395
+77.357 M tuples checked over 216.071 M in 2.464
+78.188 M tuples checked over 216.071 M in 2.523
+78.418 M tuples checked over 216.071 M in 2.598
+80.775 M tuples checked over 216.071 M in 2.677
+81.911 M tuples checked over 216.071 M in 2.745
+84.046 M tuples checked over 216.071 M in 2.809
+84.665 M tuples checked over 216.071 M in 2.890
+85.264 M tuples checked over 216.071 M in 2.971
+86.069 M tuples checked over 216.071 M in 3.052
+86.861 M tuples checked over 216.071 M in 3.125
+87.431 M tuples checked over 216.071 M in 3.188
+88.197 M tuples checked over 216.071 M in 3.267
+88.752 M tuples checked over 216.071 M in 3.347
+90.332 M tuples checked over 216.071 M in 3.403
+91.164 M tuples checked over 216.071 M in 3.472
+91.775 M tuples checked over 216.071 M in 3.543
+112.452 M tuples checked over 216.071 M in 3.603
+116.344 M tuples checked over 216.071 M in 3.663
+119.337 M tuples checked over 216.071 M in 3.722
+120.491 M tuples checked over 216.071 M in 3.784
+125.530 M tuples checked over 216.071 M in 3.859
+127.326 M tuples checked over 216.071 M in 3.914
+128.207 M tuples checked over 216.071 M in 3.981
+129.126 M tuples checked over 216.071 M in 4.048
+130.071 M tuples checked over 216.071 M in 4.123
+130.459 M tuples checked over 216.071 M in 4.193
+131.500 M tuples checked over 216.071 M in 4.264
+133.186 M tuples checked over 216.071 M in 4.327
+133.846 M tuples checked over 216.071 M in 4.382
+138.666 M tuples checked over 216.071 M in 4.447
+144.619 M tuples checked over 216.071 M in 4.517
+147.759 M tuples checked over 216.071 M in 4.585
+150.661 M tuples checked over 216.071 M in 4.657
+152.747 M tuples checked over 216.071 M in 4.721
+154.470 M tuples checked over 216.071 M in 4.791
+156.101 M tuples checked over 216.071 M in 4.871
+157.268 M tuples checked over 216.071 M in 4.946
+157.846 M tuples checked over 216.071 M in 5.008
+158.456 M tuples checked over 216.071 M in 5.073
+160.990 M tuples checked over 216.071 M in 5.123
+162.008 M tuples checked over 216.071 M in 5.190
+162.677 M tuples checked over 216.071 M in 5.256
+163.647 M tuples checked over 216.071 M in 5.320
+164.361 M tuples checked over 216.071 M in 5.391
+164.746 M tuples checked over 216.071 M in 5.461
+165.483 M tuples checked over 216.071 M in 5.533
+166.430 M tuples checked over 216.071 M in 5.604
+167.047 M tuples checked over 216.071 M in 5.667
+185.917 M tuples checked over 216.071 M in 5.731
+189.896 M tuples checked over 216.071 M in 5.776
+195.036 M tuples checked over 216.071 M in 5.832
+197.182 M tuples checked over 216.071 M in 5.881
+203.948 M tuples checked over 216.071 M in 5.943
+208.816 M tuples checked over 216.071 M in 6.001
+211.666 M tuples checked over 216.071 M in 6.053
+214.262 M tuples checked over 216.071 M in 6.104
+215.647 M tuples checked over 216.071 M in 6.158
+216.071 M tuples checked over 216.071 M in 6.185
+t-threshold secure
+>run time: 6.187
+Bye bye!
+
+
+
+

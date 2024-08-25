@@ -1,0 +1,20 @@
+proc shares4:
+  inputs: a = tmp0 + tmp1 + tmp2 + tmp3
+  outputs:aa = tmp18 + tmp20 + tmp19 + tmp21
+  randoms:tmp4,tmp5,tmp6,tmp7,tmp8,tmp9;
+
+  tmp10 := tmp0 + tmp4;
+  tmp11 := tmp2 + tmp4;
+  tmp12 := tmp1 + tmp5;
+  tmp13 := tmp3 + tmp5;
+  tmp14 := tmp10 + tmp6;
+  tmp15 := tmp12 + tmp6;
+  tmp16 := tmp11 + tmp7;
+  tmp17 := tmp13 + tmp7;
+  tmp18 := tmp14 + tmp8;
+  tmp19 := tmp16 + tmp8;
+  tmp20 := tmp15 + tmp9;
+  tmp21 := tmp17 + tmp9;
+end
+
+order 3 noglitch Probing shares4

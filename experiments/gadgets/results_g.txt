@@ -1,0 +1,133 @@
+mv/refresh_nlogn/shares2_g.mv
+>proc shares2 added
+>Checking Threshold for shares2: (no transition,glitch)
+002 tuples to check
+2  tuples checked over 2  in 0.000
+t-threshold secure
+>run time: 0.001
+Bye bye!
+
+
+
+
+mv/refresh_nlogn/shares4_g.mv
+>proc shares4 added
+>Checking Threshold for shares4: (no transition,glitch)
+004 tuples to check
+4  tuples checked over 4  in 0.000
+t-threshold secure
+>run time: 0.001
+Bye bye!
+
+
+
+
+mv/refresh_nlogn/shares6_g.mv
+>proc shares6 added
+>Checking Threshold for shares6: (no transition,glitch)
+792 tuples to check
+792  tuples checked over 792  in 0.001
+t-threshold secure
+>run time: 0.002
+Bye bye!
+
+
+
+
+mv/refresh_nlogn/shares7_g.mv
+>proc shares7 added
+>Checking Threshold for shares7: (no transition,glitch)
+462 tuples to check
+462  tuples checked over 462  in 0.000
+t-threshold secure
+>run time: 0.002
+Bye bye!
+
+
+
+
+mv/ISW_mult/shares2_g.mv
+>proc shares2 added
+>Checking Threshold for shares2: (no transition,glitch)
+001 tuples to check
+No rnd rule
+Error not t-threshold secure:
+Cannot check
+(* stdin: line 9 (2-22) *)
+
+reduce to
+
+>run time: 0.001
+Bye bye!
+
+
+
+
+mv/ISW_mult/shares3_g.mv
+>proc shares3 added
+>Checking Threshold for shares3: (no transition,glitch)
+003 tuples to check
+No rnd rule
+Error not t-threshold secure:
+Cannot check
+(* stdin: line 26 (2-25) *)
+
+reduce to
+
+>run time: 0.001
+Bye bye!
+
+
+
+
+mv/ISW_mult/shares4_g.mv
+>proc shares4 added
+>Checking Threshold for shares4: (no transition,glitch)
+004 tuples to check
+No rnd rule
+Error not t-threshold secure:
+Cannot check
+(* stdin: line 45 (2-25) *)
+
+reduce to
+
+>run time: 0.001
+Bye bye!
+
+
+
+
+mv/ISW_mult/shares5_g.mv
+>proc shares5 added
+>Checking Threshold for shares5: (no transition,glitch)
+005 tuples to check
+No rnd rule
+Error not t-threshold secure:
+Cannot check
+(* stdin: line 70 (2-25) *)
+
+reduce to
+
+>run time: 0.002
+Bye bye!
+
+
+
+
+mv/ISW_mult/shares6_g.mv
+>proc shares6 added
+>Checking Threshold for shares6: (no transition,glitch)
+006 tuples to check
+No rnd rule
+Error not t-threshold secure:
+Cannot check
+(* stdin: line 101 (2-27) *)
+
+reduce to
+
+>run time: 0.004
+Bye bye!
+
+
+
+

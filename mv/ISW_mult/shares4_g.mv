@@ -1,0 +1,48 @@
+proc shares4:
+  inputs: a = tmp0 + tmp1 + tmp2 + tmp3, b = tmp4 + tmp5 + tmp6 + tmp7
+  outputs:aa = tmp41 + tmp45 + tmp49 + tmp53
+  randoms:tmp8,tmp9,tmp10,tmp11,tmp12,tmp13;
+
+  tmp14 := tmp0 * tmp5;
+  tmp15 := tmp8 + tmp14;
+  tmp16 := tmp1 * tmp4;
+  tmp17 := tmp15 + tmp16;
+  tmp18 := tmp0 * tmp6;
+  tmp19 := tmp9 + tmp18;
+  tmp20 := tmp2 * tmp4;
+  tmp21 := tmp19 + tmp20;
+  tmp22 := tmp0 * tmp7;
+  tmp23 := tmp10 + tmp22;
+  tmp24 := tmp3 * tmp4;
+  tmp25 := tmp23 + tmp24;
+  tmp26 := tmp1 * tmp6;
+  tmp27 := tmp11 + tmp26;
+  tmp28 := tmp2 * tmp5;
+  tmp29 := tmp27 + tmp28;
+  tmp30 := tmp1 * tmp7;
+  tmp31 := tmp12 + tmp30;
+  tmp32 := tmp3 * tmp5;
+  tmp33 := tmp31 + tmp32;
+  tmp34 := tmp2 * tmp7;
+  tmp35 := tmp13 + tmp34;
+  tmp36 := tmp3 * tmp6;
+  tmp37 := tmp35 + tmp36;
+  tmp38 := tmp0 * tmp4;
+  tmp39 := tmp38 + tmp8;
+  tmp40 := tmp39 + tmp9;
+  tmp41 := tmp40 + tmp10;
+  tmp42 := tmp1 * tmp5;
+  tmp43 := tmp42 + tmp17;
+  tmp44 := tmp43 + tmp11;
+  tmp45 := tmp44 + tmp12;
+  tmp46 := tmp2 * tmp6;
+  tmp47 := tmp46 + tmp21;
+  tmp48 := tmp47 + tmp29;
+  tmp49 := tmp48 + tmp13;
+  tmp50 := tmp3 * tmp7;
+  tmp51 := tmp50 + tmp25;
+  tmp52 := tmp51 + tmp33;
+  tmp53 := tmp52 + tmp37;
+end
+
+order 1 Probing shares4
